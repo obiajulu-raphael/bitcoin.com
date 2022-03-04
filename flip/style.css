@@ -1,0 +1,388 @@
+*{
+     /* padding: 9px; */
+     margin: 3px; 
+    width: 100%;
+}
+
+body{
+    background-color: azure;
+    width: 100%;
+    
+}
+
+.cointainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+    text-decoration: none;
+    background-color: azure; 
+    width: 95%;
+}
+.cv{
+    width: 30%;
+    display: flex; 
+    padding: 5px;
+    margin: 10px 8px;
+    justify-content: space-around;
+    text-align: end;
+    text-decoration: solid;
+}
+.cv a{
+    text-decoration: none;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+.cv button{
+    height: 40px;
+    font: 200;
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(20, 99, 245, 0.596);
+}
+.nam{
+    width: 30%;
+    padding: 10px;
+    margin: 4px;
+}
+.nam img{
+    width: 200px;
+}
+
+.left{
+    padding: 10px;
+    white-space: normal;
+    margin: 4px 3px;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    display: flex;
+}
+.left a{
+    font-size: larger;
+    font: 400;
+    color: black;
+}
+.left a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+.dam{
+    display: flex;
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 13px;
+    margin: 5px;
+}
+
+.cru{
+    width: 60%;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 12px;
+}
+.cru h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+   
+}
+
+.img{
+   width: 50%;
+   height: 500px;
+}
+.img img{
+    display: flex;
+    /* height: auto; */
+    width: 300px;
+    justify-content: space-around;
+}
+
+.apple{
+    border-radius: 2px;
+    background-color: black; 
+    color: white;
+    align-content: center;
+    justify-content: center;
+    /* align-content: center; */
+    border-radius: 20px;
+    width: 60%;
+    /* display: flex; */
+    font: oblique;
+    text-align: justify;
+    
+    
+}
+.apple button{
+    border-radius: 10px;
+    /* display: block; */
+    width: 50%; 
+    background-color: #04AA6D;
+    padding: 14px 28px;
+    font-size: 100px;
+    cursor: pointer;
+    text-align: justify;
+}
+
+.i{
+    width: 60%;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    border-radius: 20px;
+    text-align: justify;
+}
+.i i{
+    color: rgb(238, 74, 74);
+}
+
+.dame{
+    display: flex;
+    background-color: rgb(29, 162, 202);
+    color: white;
+    margin: 3px;
+    padding: 5px;
+    width: 98%;
+    align-items: center;
+    border-radius: 9px;
+}
+.dame button{
+    border-radius: 9px;
+    width: 350px;
+    margin-left: 250px;
+}
+.mi{
+    text-align: center;
+    width: 70%;
+}
+
+.btn button hi{
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    border-radius: 10%;
+    border: #04AA6D;
+}
+.kim{
+    justify-content: space-between;
+
+}
+.io{
+    text-align: center;
+}
+.io h1 {
+    font: bolder;
+}
+.io h3{
+    font: lighter;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.buy{
+    color: rgb(0, 204, 255);
+}
+.pie{
+    display: flex;
+}
+.lim{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 12px;
+}
+.lim h3{
+    font: caption;
+}
+.fa{
+    display: flex;
+    justify-content: space-around;
+}
+.pie{
+    /* background-color: rgb(0, 204, 255); */
+    color: white;
+    border-radius: 5px;
+}
+.pie button{
+    border-radius: 9px;
+    background-color: rgb(0, 204, 255);
+    color: white;
+}
+
+.sat{
+    display: flex;
+    border-radius: 10px;
+}
+.sat button{
+    border-radius: 9px;
+    height: 30px;
+}
+.exchange{
+    display: flex;
+    padding: 30px;
+    margin: 20px;
+    justify-content: space-around;
+    width: 93%;
+}
+.ex{
+    display: flex;
+    border-radius: 9px;
+    margin: 3px;
+    padding: 7px;
+    text-decoration: none;
+}
+.ex button{
+    border-radius: 9px;
+    padding: 6px;
+}
+.ex a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.data{
+    display: flex;
+    border-radius: 9px;
+    margin: 3px;
+    padding: 7px;
+    text-decoration: none;
+}
+.data button{
+    border-radius: 9px;
+    padding: 6px;
+    background-color: rgb(0, 204, 255);
+}
+.data a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.class{
+    display: flex;
+    padding: 12px 10px;
+    margin: 6px 7px;
+    width: 93%;
+    justify-content: space-around;
+}
+.in a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.in button{
+    background-color: rgb(49, 173, 235);
+    font-size: larger;
+    border-radius: 9px;
+    width: 350px;
+}
+
+.update{
+    justify-content: space-around;
+    display: flex;
+    width: 97%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.update h2{
+    padding: 6px;
+    margin: 9px;
+}
+.update p{
+    padding: 6px;
+    margin: 9px;
+}
+.update button{
+    color: rgb(14, 10, 10);
+    background-color: rgb(247, 252, 255);
+    height: 40px;
+    border-radius: 30px;
+    width: 280px;
+    align-items: center;
+    padding: 5px;
+    margin: 9px;
+    font-size: x-large;
+    
+}
+.update a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    padding: 20px;
+    margin: 15px;
+}
+.bit{
+    display: inline-block;
+    padding: 10px;
+    margin: 7px;
+}
+
+.ji{
+    margin: 7px;
+    padding: 10px;
+}
+.on{
+    margin: 7px;
+    padding: 10px;
+}
+
+.on a{
+    text-decoration: none;
+}
+
+.pump{
+    display: flex;
+    background-color: rgb(39, 147, 255);
+    width: 100%;
+}
+.grace{
+    display: flex;
+    padding: 20px;
+    margin: 40px;
+    width: 45%;
+    justify-content: center;
+}
+.grace button{
+    border-radius: 9px;
+    height: 32px;
+    width: 200px;
+}
+.mad{
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.cone{
+    display: flex;
+}
+.list{
+    display: flex;
+    margin-left: 50px;  
+    margin-right: 50px;
+    padding-top: 20px;  
+}
+
+.list ul li{
+    text-decoration: none;
+}
+.hit{
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.hit li{
+    text-decoration: none;
+    display: flex;
+}

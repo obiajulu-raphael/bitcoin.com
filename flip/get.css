@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+body{
+    width: 98%;
+    background-color: azure;
+}
+.container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 5%;
+        position: sticky;
+        top: 0;
+        z-index: 100; 
+        text-decoration: none;
+        background-color: azure; 
+        width: 95%;
+}
+.cointainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+    text-decoration: none;
+    background-color: azure; 
+    width: 95%;
+}
+.cv{
+    width: 30%;
+    display: flex; 
+    padding: 5px;
+    margin: 10px 8px;
+    justify-content: space-around;
+    text-align: end;
+    text-decoration: solid;
+}
+.cv a{
+    text-decoration: none;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+.cv button{
+    height: 40px;
+    font: 200;
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(20, 99, 245, 0.596);
+}
